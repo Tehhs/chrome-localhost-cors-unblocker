@@ -1,0 +1,10 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "description": "Disables CORS for localhost",
+   "manifest_version": 2,
+   "name": "Localhost CORS Unlock",
+   "permissions": [ "storage", "\u003Call_urls>", "webRequest", "webRequestBlocking", "tabs" ],
+   "version": "0.1"
+}
