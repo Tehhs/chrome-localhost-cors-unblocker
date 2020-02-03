@@ -1,0 +1,1 @@
+Works as of Chrome 79. Allows localhost pages to ignore CORS restrictions. 
