@@ -1,10 +1,18 @@
 {
-   "background": {
-      "scripts": [ "background.js" ]
-   },
-   "description": "Disables CORS for localhost",
-   "manifest_version": 2,
+   "manifest_version": 3,
    "name": "Localhost CORS Unlock",
-   "permissions": [ "storage", "\u003Call_urls>", "webRequest", "webRequestBlocking", "tabs" ],
-   "version": "0.1"
-}
+   "description": "Disables CORS for localhost",
+   "version": "1.0",
+   "permissions": [
+      "activeTab", 
+      "storage", 
+      "declarativeNetRequest",
+      "declarativeNetRequestFeedback",
+      "webRequest", 
+      //"webRequestBlocking", 
+      "tabs"
+   ],
+   "background": {
+     "service_worker": "background.js"
+   }
+ }

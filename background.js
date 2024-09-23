@@ -27,6 +27,7 @@ chrome.tabs.onCreated.addListener(function(tab) {
 
 //when tab updates url, check url and add CORS if need be 
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab){
+    console.log("Has been updated!")
     if(changeInfo.status && changeInfo.status == "loading") { 
         processTab(tabId)
     }
