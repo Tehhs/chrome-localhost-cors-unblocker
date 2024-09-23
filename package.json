@@ -1,0 +1,15 @@
+{
+  "name": "chrome-localhost-cors-unblocker",
+  "version": "1.0.0",
+  "description": "Works as of Chrome 129. Allows localhost pages to ignore CORS restrictions.",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.11.0",
+    "eslint-plugin-jsdoc": "^50.2.4"
+  }
+}

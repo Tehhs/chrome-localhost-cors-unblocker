@@ -9,7 +9,6 @@
       "declarativeNetRequest",
       "declarativeNetRequestFeedback",
       "webRequest", 
-      //"webRequestBlocking", 
       "tabs"
    ],
    "background": {
